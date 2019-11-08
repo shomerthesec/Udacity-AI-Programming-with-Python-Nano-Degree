@@ -1,0 +1,51 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                  golden_01.jpg  label:                     golden
+ 2 key:                     mug_01.jpg  label:                        mug
+ 3 key:                    frog_01.jpg  label:                       frog
+ 4 key:                  golden_02.jpg  label:                     golden
+
+     MATCH:
+
+                 golden_01.jpg: 
+Real:                     golden   Classifier:               golden retriever
+
+                   frog_01.jpg: 
+Real:                       frog   Classifier:           tree frog, tree-frog
+
+ NOT A MATCH:
+
+                    mug_01.jpg: 
+Real:                        mug   Classifier:                         beaker
+
+                 golden_02.jpg: 
+Real:                     golden   Classifier:                       broccoli
+
+# Total Images 4 # Matches: 2 # NOT Matches: 2
+
+     MATCH:
+
+                 golden_01.jpg: 
+Real:                     golden   Classifier:               golden retriever  
+PetLabelDog: 0  ClassLabelDog: 1
+
+                   frog_01.jpg: 
+Real:                       frog   Classifier:           tree frog, tree-frog  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+                    mug_01.jpg: 
+Real:                        mug   Classifier:                         beaker  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                 golden_02.jpg: 
+Real:                     golden   Classifier:                       broccoli  
+PetLabelDog: 0  ClassLabelDog: 0
+
+# Total Images 4 # Matches: 2 # NOT Matches: 2
