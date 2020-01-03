@@ -1,5 +1,8 @@
 # Udacity-AI-programming-with-Python-Nano-Degree
-My projects in udacity AIPND.
+
+all the codes were made during my course with udacity #AIPND .
+
+Using transfere learning in pytorch to create a classifier to classify flowers and dog breeds.
 
 the main project program is in the /FinalProject file.
 
